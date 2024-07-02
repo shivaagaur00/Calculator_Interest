@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.provide_inline {
+    display: inline;
+}
+
+.provide_flex_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.points {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head {
+    box-sizing: border-box;
+    box-shadow: 0px 0px 9px black;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background: linear-gradient(to right, #0E2E3B, #244856); /* Gradient from dark blue (#0E2E3B) to darker blue (#244856) */
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Playwrite DE Grund", cursive;
+    font-family: "Playwrite DE Grund", cursive;
+    color: #FFEB7D; /* Light yellow */
+    height: 10vh;
+    box-shadow: 0px 0px 9px black;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #FFB44B, #FFD662); /* Gradient from orange (#FFB44B) to yellow (#FFD662) */
+}
+
+.points label {
+    padding: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.points input {
+    border-radius: 15px;
+    height: 2rem;
+    width: 12rem;
+    padding: 1px 0px;
+    margin-left: 1.5rem;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #FFF2CC, #FFEC9E); /* Gradient from light yellow (#FFF2CC) to light orange (#FFEC9E) */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    border: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.points input:hover {
+    cursor: pointer;
+}
+
+#choose_option select {
+    border-radius: 15px;
+    height: 2rem;
+    width: 12rem;
+    padding: 1px 0px;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #FFF2CC, #FFEC9E); /* Gradient from light yellow (#FFF2CC) to light orange (#FFEC9E) */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+#choose_option select:hover {
+    cursor: pointer;
+}
+
+footer {
+    height: 10vh;
+    background: linear-gradient(to right, #0E2E3B, #244856); /* Gradient from dark blue (#0E2E3B) to darker blue (#244856) */
+    color: white;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "PT Sans", sans-serif;
+    background: linear-gradient(to right, rgba(255, 111, 65, 0.8), rgba(255, 237, 170, 0.8)); /* Gradient from transparent orange to transparent light yellow */
+    height: 60vh;
+    width: 35vw;
+    border-radius: 50px;
+    color: rgb(6, 0, 0);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+}
+
+.points button {
+    border-radius: 20px;
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #FFBF78, #FF7D29); /* Gradient from LightGold (#FFBF78) to Warm (#FF7D29) */
+    width: 8rem;
+    height: 40px;
+    color: #1b1a55; /* Darker blue */
+    border: none;
+    padding: 5px 17px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 2rem;
+}
+#button_calculate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.points button:hover {
+    transition: ease-in-out 1s;
+    background: linear-gradient(to right, #FF7D29, #FFBF78); /* Reversed gradient on hover */
+}
